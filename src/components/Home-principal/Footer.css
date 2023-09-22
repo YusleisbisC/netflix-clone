@@ -1,0 +1,29 @@
+/* Footer.css */
+.footer {
+    background-color: #111;
+    color: #757575;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer__links a {
+    color: #757575;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 12px;
+  }
+  
+  .footer__links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer__language select {
+    background-color: transparent;
+    color: #757575;
+    border: none;
+    font-size: 12px;
+  }
+  

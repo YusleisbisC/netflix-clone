@@ -1,0 +1,39 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 30px;
+    position: fixed;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 5) 60%, rgba(0, 0, 0, 0.5) 100%);
+
+   
+  }
+  
+  .navbar__logo {
+    width: 150px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 100px;
+    font-size: 50px;
+    
+  }
+  
+  .navbar__avatar {
+    width: 30px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  .navbar__loginButton {
+    background-color: #e50914;
+    color: #f8f1f1;
+    margin-top: 30px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 3rem;
+    cursor: pointer;
+    margin-right: 100px;
+  }
+  /* Puedes agregar más estilos según tus necesidades */
+  

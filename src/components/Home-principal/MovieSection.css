@@ -1,0 +1,45 @@
+/* MovieSection.css */
+
+.movie-section {
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .movie-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .movie {
+    position: relative;
+    text-align: center;
+  }
+  
+  .movie img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .movie img:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  

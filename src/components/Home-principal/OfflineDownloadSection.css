@@ -1,0 +1,18 @@
+/* OfflineDownloadSection.css */
+
+.offline-download {
+    background-color: #333; /* Color de fondo oscuro */
+    color: #fff; /* Color de texto blanco */
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .offline-download h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .offline-download p {
+    font-size: 1.2rem;
+  }
+  

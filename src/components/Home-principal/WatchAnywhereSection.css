@@ -1,0 +1,25 @@
+/* WatchAnywhereSection.css */
+
+.watch-anywhere {
+    background-color: #000; /* Color de fondo negro */
+    color: #fff; /* Color de texto blanco */
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .watch-anywhere h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .watch-anywhere p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos para los íconos de dispositivos */
+  .device-icons img {
+    width: 50px;
+    margin: 0 10px;
+  }
+  
