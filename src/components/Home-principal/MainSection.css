@@ -1,115 +1,96 @@
 /* MainSection.css */
 
 /* Estilo para el fondo de la sección principal */
-body{
-    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/f85718e8-fc6d-4954-bca0-f5eaf78e0842/37171454-979d-4d94-8450-52228ced006e/BR-pt-20230918-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
-    
+body {
+  background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/f85718e8-fc6d-4954-bca0-f5eaf78e0842/37171454-979d-4d94-8450-52228ced006e/BR-pt-20230918-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
 }
 
 .home__main {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 5) 60%, rgba(0, 0, 0, 0.5) 100%);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Estilo para el título principal */
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 5) 60%, rgba(0, 0, 0, 0.5) 100%);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo para el título principal */
+.home__text h1 {
+  font-size: 5rem;
+  margin: 20px 0;
+}
+
+/* Estilo para el subtítulo */
+.home__text h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* Estilo para el párrafo */
+.home__text p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el input de correo */
+.home__input input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+/* Estilo para el botón */
+.home__input button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Cambiar color del botón al pasar el cursor */
+.home__input button:hover {
+  background-color: #ff4c4c;
+}
+
+/* Estilos para pantallas más pequeñas (responsive) */
+@media (max-width: 768px) {
   .home__text h1 {
-    font-size: 5rem;
-    margin: 20px 0;
-  }
-  
-  /* Estilo para el subtítulo */
-  .home__text h2 {
-    font-size: 1.5rem;
-    margin: 10px 0;
-  }
-  
-  /* Estilo para el párrafo */
-  .home__text p {
-    font-size: 1.3rem;
-    margin-bottom: 20px;
-  }
-  
-  /* Estilo para el input de correo */
-  .home__input input {
-    padding: 10px;
-    width: 100%;
-    border: none;
-    border-radius: 3px;
-    font-size: 1rem;
-    margin-right: 10px;
-  }
-  
-  /* Estilo para el botón */
-  .home__input button {
-    background-color: #e50914;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  /* Cambiar color del botón al pasar el cursor */
-  .home__input button:hover {
-    background-color: #ff4c4c;
-  }
-  
-  /* Estilos para pantallas más pequeñas (responsive) */
-  @media (max-width: 768px) {
-    .home__text h1 {
       font-size: 2rem;
-    }
-  
-    .home__text h2 {
+  }
+
+  .home__text h2 {
       font-size: 1.2rem;
-    }
-  
-    .home__text p {
+  }
+
+  .home__text p {
       font-size: 1rem;
-    }
-  
-    /* Estilo para el botón en pantallas más pequeñas */
-    .home__input button {
+  }
+
+  /* Estilo para el botón en pantallas más pequeñas */
+  .home__input button {
       font-size: 0.9rem;
-    }
   }
-  /* MainSection.css */
 
-/* ... Otros estilos ... */
+  /* Estilo para el botón de inicio de sesión en pantallas más pequeñas */
+  .home__login-button {
+      font-size: 0.9rem;
+      padding: 8px 16px; /* Ajustar el padding para pantallas más pequeñas */
+  }
 
-/* Estilo para el botón de inicio de sesión */
-.home__login-button {
-    background-color: transparent; /* Fondo transparente */
-    color: white;
-    border: none;
-    border-radius: 3px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  /* Cambiar color del botón al pasar el cursor */
-  .home__login-button:hover {
-    background-color: #e50914; /* Color de fondo cuando se pasa el cursor */
-  }
-  
-  /* Estilo para el logo */
+  /* Estilo para el logo en pantallas más pequeñas */
   .home__navbar img {
-    width: 100px; /* Ancho del logo */
-    object-fit: contain;
-    cursor: pointer;
+      width: 80px; /* Reducir el ancho del logo en pantallas más pequeñas */
   }
-  
+}

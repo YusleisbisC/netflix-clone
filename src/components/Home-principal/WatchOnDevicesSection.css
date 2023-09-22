@@ -1,18 +1,56 @@
-/* components/WatchOnDevicesSection.css */
+/* WatchOnDevicesSection.css */
 
+/* Estilos para el contenedor principal */
 .watch-on-devices {
-    padding: 30px;
-    background-color: #141414;
-    color: white;
-    text-align: center;
-  }
-  
-  .watch-on-devices h2 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .watch-on-devices p {
-    font-size: 1rem;
-  }
-  
+  padding: 10% 0; /* Ajustar el espacio en todos los tamaños de pantalla */
+  background-color: #0a0a0a;
+  color: white;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar horizontalmente */
+  overflow: hidden; /* Evitar el desbordamiento en pantallas más pequeñas */
+}
+
+/* Estilos para la imagen de la TV */
+.default-ltr-cache-1d3w5wq {
+  position: absolute; /* Establecer posición absoluta para la imagen de la TV */
+  top: 0; /* Ajustar la posición desde la parte superior */
+  left: 50%; /* Centrar horizontalmente */
+  transform: translateX(-50%); /* Centrar horizontalmente */
+  z-index: 1; /* Asegurar que esté en la capa superior */
+  max-width: 100%; /* Asegurar que la imagen no sea más grande que el contenedor */
+  height: auto; /* Mantener la proporción de aspecto */
+}
+
+/* Estilos para el video animado */
+.default-ltr-cache-m5f3qu {
+  position: absolute; /* Establecer posición absoluta para el video */
+  top: 0; /* Ajustar la posición desde la parte superior */
+  left: 0; /* Ajustar la posición desde la izquierda */
+  z-index: 2; /* Asegurar que esté en la capa superior */
+  width: 100%; /* Asegurar que el video ocupe todo el ancho del contenedor */
+  height: auto; /* Mantener la proporción de aspecto */
+}
+
+/* Estilos para el texto */
+.watch-on-devices h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 10px; /* Espaciado uniforme alrededor del texto */
+}
+
+.watch-on-devices p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 10px; /* Espaciado uniforme alrededor del texto */
+}
+
+/* Estilos para la animación de la TV encendida */
+.tv-on {
+  /* Agrega estilos para indicar que la TV está encendida, por ejemplo, un borde o un resplandor */
+  border: 2px solid #f00; /* Borde rojo como ejemplo */
+}

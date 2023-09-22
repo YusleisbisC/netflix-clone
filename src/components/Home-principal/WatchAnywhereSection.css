@@ -1,25 +1,53 @@
 /* WatchAnywhereSection.css */
 
 .watch-anywhere {
-    background-color: #000; /* Color de fondo negro */
-    color: #fff; /* Color de texto blanco */
-    padding: 30px;
-    text-align: center;
-  }
-  
-  .watch-anywhere h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .watch-anywhere p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-  }
-  
-  /* Estilos para los íconos de dispositivos */
-  .device-icons img {
-    width: 50px;
-    margin: 0 10px;
-  }
-  
+  padding: 90px; /* Ajustar el espacio en todos los tamaños de pantalla */
+  background-color: #cf1212;
+  color: white;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar horizontalmente */
+}
+
+.watch-anywhere h2 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 10px; /* Espaciado uniforme alrededor del texto */
+}
+
+.watch-anywhere p {
+  font-size: 1.125rem;
+  margin: 0;
+  padding: 10px; /* Espaciado uniforme alrededor del texto */
+}
+
+.device-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.device-image {
+  max-width: 100%;
+  height: auto;
+  padding: 30px;
+}
+
+.device-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+.device-video {
+  width: 60%;
+  height: auto;
+}
+
+.device-custom {
+  display: none; /* Opcional: ocultar el elemento personalizado si es necesario */
+}
