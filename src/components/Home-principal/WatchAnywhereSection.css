@@ -1,53 +1,80 @@
-/* WatchAnywhereSection.css */
-
 .watch-anywhere {
-  padding: 90px; /* Ajustar el espacio en todos los tamaños de pantalla */
-  background-color: #cf1212;
+  padding: 10% 0; /* Ajustar el espacio en todos los tamaños de pantalla */
+  background-color: #0a0a0a;
   color: white;
   text-align: center;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center; /* Centrar horizontalmente */
+  overflow: hidden; 
+  border-top: solid 2px rgb(92, 87, 87);/* Evitar el desbordamiento en pantallas más pequeñas */
 }
 
-.watch-anywhere h2 {
-  font-size: 2rem;
-  margin: 0;
-  padding: 10px; /* Espaciado uniforme alrededor del texto */
-}
-
-.watch-anywhere p {
-  font-size: 1.125rem;
-  margin: 0;
-  padding: 10px; /* Espaciado uniforme alrededor del texto */
-}
-
+/* Estilo para el contenedor de dispositivos */
 .device-container {
   position: relative;
-  max-width: 100%;
+  width: 100%;
+  max-width: 400px; /* Puedes ajustar el tamaño del contenedor de dispositivos */
 }
 
+/* Estilo para la imagen de la Mac */
 .device-image {
-  max-width: 100%;
-  height: auto;
-  padding: 30px;
-}
-
-.device-animation {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: auto;
-  z-index: 2;
+  z-index: 1;
 }
 
+/* Estilo para el contenedor de animación */
+.device-animation {
+  position: relative;
+  width: 100%;
+}
+
+
+/* Estilo para el contenedor de animación */
+.device-animation {
+  position: relative;
+  width: 100%;
+}
+
+
+/* Estilo para el video de dispositivos */
 .device-video {
-  width: 60%;
+  width: 100%;
+  
+ 
   height: auto;
+  max-height: 100%; /* Asegurar que el video no sea más alto que el contenedor */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  
 }
 
-.device-custom {
-  display: none; /* Opcional: ocultar el elemento personalizado si es necesario */
+/* Estilo para el contenedor de animación (opcional) */
+.device-animation {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Consulta de medios para pantallas pequeñas (hasta 360px de ancho) */
+@media (max-width: 360px) {
+  /* Ajustar el tamaño del título para pantallas pequeñas */
+  .watch-anywhere h2 {
+    font-size: 1.5rem;
+  }
+
+  /* Ajustar el tamaño del párrafo para pantallas pequeñas */
+  .watch-anywhere p {
+    font-size: 1rem;
+  }
+
+  /* Ajustar el tamaño del video para pantallas pequeñas */
+  .device-video {
+    width: 80%; /* Reducir el ancho del video */
+  }
 }

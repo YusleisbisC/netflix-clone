@@ -10,7 +10,8 @@
   display: flex;
   flex-direction: column;
   align-items: center; /* Centrar horizontalmente */
-  overflow: hidden; /* Evitar el desbordamiento en pantallas más pequeñas */
+  overflow: hidden; 
+  border-top: solid 2px rgb(92, 87, 87);/* Evitar el desbordamiento en pantallas más pequeñas *//* Evitar el desbordamiento en pantallas más pequeñas */
 }
 
 /* Estilos para el título principal */

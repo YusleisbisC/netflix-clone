@@ -3,6 +3,7 @@
 /* Estilo para el fondo de la sección principal */
 body {
   background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/f85718e8-fc6d-4954-bca0-f5eaf78e0842/37171454-979d-4d94-8450-52228ced006e/BR-pt-20230918-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+  
 }
 
 .home__main {
@@ -23,18 +24,21 @@ body {
 .home__text h1 {
   font-size: 5rem;
   margin: 20px 0;
+  color: aliceblue;
 }
 
 /* Estilo para el subtítulo */
 .home__text h2 {
   font-size: 1.5rem;
   margin: 10px 0;
+  color: aliceblue;
 }
 
 /* Estilo para el párrafo */
 .home__text p {
   font-size: 1.3rem;
   margin-bottom: 20px;
+  color: aliceblue;
 }
 
 /* Estilo para el input de correo */

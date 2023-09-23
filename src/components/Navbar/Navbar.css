@@ -1,39 +1,65 @@
 /* Navbar.css */
 
+/* Estilo base para la barra de navegación */
 .navbar {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 20px 30px;
-    position: fixed;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 5) 60%, rgba(0, 0, 0, 0.5) 100%);
+  display: flex;
+  justify-content: space-between; /* Espacio entre elementos */
+  align-items: center;
+  /* Reducir el padding en pantallas pequeñas */
+  position:absolute;
+  
+  width: 100%; /* Asegurar que ocupe todo el ancho */
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+  z-index: 1000;
+}
 
-   
+/* Estilo para el logo */
+.navbar__logo {
+  width: 120px; /* Ajustar el ancho del logo */
+  margin-top: 10px; /* Espacio superior reducido */
+  cursor: pointer;
+  font-size: 36px; /* Tamaño de fuente reducido */
+  margin-left: 10px; /* Espacio izquierdo reducido */
+}
+
+/* Estilo para el botón de inicio de sesión */
+.navbar__loginButton {
+  background-color: #e50914;
+  color: #f8f1f1;
+  margin-top: 10px; /* Espacio superior reducido */
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 10px; /* Espacio derecho reducido */
+}
+
+/* Estilo para el avatar (si es necesario) */
+.navbar__avatar {
+  width: 30px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+/* Consulta de medios para pantallas pequeñas (hasta 360px de ancho) */
+@media (max-width: 360px) {
+  .navbar {
+    padding: 10px 5px; /* Reducir aún más el padding */
   }
-  
+
   .navbar__logo {
-    width: 150px;
-    margin-top: 30px;
-    cursor: pointer;
-    margin-left: 100px;
-    font-size: 50px;
-    
+    width: 100px; /* Ajustar el ancho del logo */
+    font-size: 24px; /* Tamaño de fuente aún más reducido */
+    margin-left: 5px; /* Espacio izquierdo aún más reducido */
   }
-  
-  .navbar__avatar {
-    width: 30px;
-    object-fit: contain;
-    cursor: pointer;
-  }
+
   .navbar__loginButton {
-    background-color: #e50914;
-    color: #f8f1f1;
-    margin-top: 30px;
-    border-radius: 3px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-right: 100px;
+    padding: 8px 10px; /* Ajustar el padding para pantallas pequeñas */
+    font-size: 0.8rem; /* Tamaño de fuente reducido */
+    margin-right: 5px; /* Espacio derecho aún más reducido */
   }
-  /* Puedes agregar más estilos según tus necesidades */
-  
+}

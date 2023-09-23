@@ -3,12 +3,18 @@
 /* Fondo de la página */
 body {
   
-  color: #fff;
+ 
   margin: 0;
   padding: 0;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+ /* Estilo para el fondo del body (hoja de estilos global) */
+
+ 
 
 }
+
+
+
 
 
 

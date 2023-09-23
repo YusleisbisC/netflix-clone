@@ -1,10 +1,11 @@
 /* FAQSection.css */
 
 .faq-section {
-    background-color: #111; /* Color de fondo */
+    background-color: #141010; /* Color de fondo */
     color: white;
     padding: 20px;
-    text-align: center; /* Centrar el texto en el contenedor */
+    text-align: center; 
+    border-top: solid 2px rgb(92, 87, 87);/* Evitar el desbordamiento en pantallas más pequeñas *//* Centrar el texto en el contenedor */
 
   }
   
@@ -43,10 +44,14 @@
   
   .accordion-body {
     background-color: #333; /* Color de fondo del área de respuesta */
-    color: white;
+    color: rgb(235, 227, 227);
     padding: 10px;
     border-radius: 0 0 5px 5px;
     text-align: left; 
     /* Alineación del texto en el área de respuesta */
   }
   
+  .conta{
+    margin-top: 30px;
+    padding: 5px;
+  }

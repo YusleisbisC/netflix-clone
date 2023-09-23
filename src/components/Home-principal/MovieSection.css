@@ -1,14 +1,16 @@
 /* MovieSection.css */
 
 .movie-section {
-    padding: 20px;
-    background-color: #000;
-    color: #fff;
-  }
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  margin-top: 80px; /* Agrega un margen superior para dejar espacio para el Navbar */
+}
+
   
   .movie-section h2 {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   
   .movie-list {

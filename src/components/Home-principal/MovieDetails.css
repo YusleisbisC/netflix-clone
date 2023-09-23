@@ -1,0 +1,73 @@
+/* MovieDetails.css */
+
+/* Estilo para el contenedor principal */
+.movie-details {
+    background-color: #141414;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para el enlace de volver a la lista de películas */
+  .movie-details a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  /* Estilo para el título de la película */
+  .movie-details h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para los detalles de la película */
+  .movie-details p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para el botón de reproducir */
+  .movie-details button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  /* Cambiar color del botón al pasar el cursor */
+  .movie-details button:hover {
+    background-color: #ff4c4c;
+  }
+  
+  /* Estilo para el reproductor de video */
+  .movie-details video {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para pantallas más pequeñas, como 360px */
+  @media (max-width: 360px) {
+    /* Ajusta aquí los estilos para pantallas pequeñas */
+    .movie-details h2 {
+      font-size: 2rem;
+    }
+    
+    .movie-details p {
+      font-size: 1rem;
+    }
+    
+    .movie-details button {
+      font-size: 1rem;
+      padding: 8px 16px;
+    }
+  }
+  

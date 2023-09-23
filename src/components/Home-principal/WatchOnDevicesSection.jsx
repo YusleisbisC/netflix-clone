@@ -8,7 +8,8 @@ export function WatchOnDevicesSection() {
       <div className='nombre'>
       <h2>Aproveite na TV</h2>
       <p>
-        Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.
+        Assista em Smart TVs, PlayStation, Xbox, Chromecast, 
+        Apple TV, aparelhos de Blu-ray e outros dispositivos.
       </p>
       </div>
       

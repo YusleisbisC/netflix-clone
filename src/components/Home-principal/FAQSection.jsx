@@ -38,7 +38,7 @@ export function FAQSection() {
         ))}
       </div>
 
-      <div>
+      <div className='conta'>
      <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
           <div className="home__input">
             <input type="email" placeholder="Endereço de e-mail" />
